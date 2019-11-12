@@ -1,0 +1,21 @@
+﻿{
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-concat": "2.6.1",
+    "gulp-less": "4.0.1",
+    "gulp-uglify-es": "2.0.0",
+    "gulp-uglifycss": "1.1.0",
+    "lodash.merge": "4.6.2",
+    "rimraf": "3.0.0"
+  },
+  "dependencies": {
+    "@bevacqua/rome": "3.0.3",
+    "bootstrap.native": "2.0.27",
+    "moment": "2.24.0",
+    "numbro": "2.1.2",
+    "wellidate": "1.1.1"
+  }
+}

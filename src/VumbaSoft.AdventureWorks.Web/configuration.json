@@ -1,0 +1,70 @@
+﻿{
+    "Cookies": {
+        "Antiforgery": {
+            "Name": ".Web-Token"
+        },
+        "Auth": {
+            "Name": ".Web-Auth"
+        },
+        "TempData": {
+            "Name": ".Web-Temp"
+        },
+        "Session": {
+            "Name": ".Web-Session"
+        }
+    },
+    "Data": {
+        "Connection": "Server=(localdb);Database=AdventureWorks;Trusted_Connection=True;MultipleActiveResultSets=True"
+    },
+    "Languages": {
+        "Default": "en",
+      "Supported": [
+        {
+          "name": "English",
+          "culture": "en-GB",
+          "abbreviation": "en"
+        },
+        {
+          "name": "Spanish",
+          "culture": "es-ES",
+          "abbreviation": "es"
+        },
+        {
+          "name": "Portuguese",
+          "culture": "pt-PT",
+          "abbreviation": "pt"
+        },
+        {
+          "name": "French",
+          "culture": "fr-FR",
+          "abbreviation": "fr"
+        },
+        {
+          "name": "Italian",
+          "culture": "it-IT",
+          "abbreviation": "it"
+        },
+        {
+          "name": "Deutsch",
+          "culture": "de-DE",
+          "abbreviation": "de"
+        }
+      ]
+    },
+    "Logging": {
+        "File": {
+            "Path": "Logs/log.txt",
+            "RollSize": 5242880
+        }
+    },
+    "Mail": {
+        "Port": 587,
+        "EnableSsl": true,
+        "Host": "smtp.gmail.com",
+        "Sender": "MVC.Template@gmail.com",
+        "Password": "ChangeIt"
+    },
+    "SiteMap": {
+        "Path": "mvc.sitemap"
+    }
+}
