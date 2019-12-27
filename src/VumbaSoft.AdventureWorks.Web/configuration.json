@@ -14,7 +14,7 @@
         }
     },
     "Data": {
-        "Connection": "Server=(localdb);Database=AdventureWorks;Trusted_Connection=True;MultipleActiveResultSets=True"
+        "Connection": "Server=(local);Database=AdventureWorks;Trusted_Connection=True;MultipleActiveResultSets=True"
     },
     "Languages": {
         "Default": "en",
@@ -25,22 +25,22 @@
           "abbreviation": "en"
         },
         {
-          "name": "Spanish",
+          "name": "Español",
           "culture": "es-ES",
           "abbreviation": "es"
         },
         {
-          "name": "Portuguese",
+          "name": "Português",
           "culture": "pt-PT",
           "abbreviation": "pt"
         },
         {
-          "name": "French",
+          "name": "Français",
           "culture": "fr-FR",
           "abbreviation": "fr"
         },
         {
-          "name": "Italian",
+          "name": "Italiano",
           "culture": "it-IT",
           "abbreviation": "it"
         },
