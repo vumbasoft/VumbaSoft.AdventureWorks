@@ -1,0 +1,10 @@
+﻿{
+  "Titles": {
+    "Id": "Rolle",
+    "Permissions": "Berechtigungen",
+    "Title": "Titel"
+  },
+  "Validations": {
+    "UniqueTitle": "Der Rollentitel wird bereits verwendet."
+  }
+}

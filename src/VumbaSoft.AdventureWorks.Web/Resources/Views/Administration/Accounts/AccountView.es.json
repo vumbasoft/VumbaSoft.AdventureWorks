@@ -1,0 +1,28 @@
+﻿{
+  "Messages": {
+    "ProfileDeleteDisclaimer": "Está a punto de eliminar su perfil, se eliminará toda su información personal",
+    "ProfileUpdated": "Perfil actualizado con éxito",
+    "RecoveryEmailBody": "Para recuperar los detalles de su cuenta, simplemente siga este <a href=\"{0}\">link</a>.",
+    "RecoveryEmailSubject": "Recuperación de Cuenta",
+    "RecoveryInformation": "La información de recuperación de la cuenta se envió a su correo electrónico",
+    "SuccessfulReset": "La contraseña de su cuenta se ha cambiado correctamente"
+
+  },
+  "Titles": {
+    "Email": "Correo electrónico",
+    "IsLocked": "Bloqueado",
+    "Password": "Contraseña",
+    "RoleTitle": "Rol",
+    "Username": "Nombre de usuario"
+
+  },
+  "Validations": {
+    "ExpiredToken": "El token de recuperación ya ha caducado",
+    "IncorrectAuthentication": "El nombre de usuario o contraseña son incorrectos.",
+    "IncorrectPassword": "La contraseña es incorrecta.",
+    "LockedAccount": "Tu cuenta esta bloqueada.",
+    "UniqueEmail": "La dirección de correo electrónico ya se está utilizando",
+    "UniqueUsername": "\"Este nombre de usuario ya está tomado\"."
+
+  }
+}

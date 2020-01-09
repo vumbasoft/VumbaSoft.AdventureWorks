@@ -1,5 +1,5 @@
 numbro.registerLanguage({
-    languageTag: "en",
+    languageTag: "pt",
     delimiters: {
         thousands: ",",
         decimal: "."

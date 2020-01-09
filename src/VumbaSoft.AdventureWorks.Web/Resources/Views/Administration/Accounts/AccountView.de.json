@@ -1,0 +1,26 @@
+﻿{
+  "Messages": {
+    "ProfileDeleteDisclaimer": "Sie sind dabei, Ihr Profil zu löschen, alle Ihre persönlichen Daten werden gelöscht",
+    "ProfileUpdated": "Profil erfolgreich aktualisiert",
+    "RecoveryEmailBody": "Um Ihre Kontodaten wiederherzustellen, folgen Sie einfach diesem <a href=\"{0}\">link</a>.",
+    "RecoveryEmailSubject": "Konto-Wiederherstellung",
+    "RecoveryInformation": "Kontowiederherstellungsinformationen wurden an Ihre E-Mail gesendet",
+    "SuccessfulReset": "Ihr Kontopasswort wurde erfolgreich geändert"
+  },
+  "Titles": {
+    "Email": "Email",
+    "IsLocked": "Gesperrt",
+    "Password": "Passwort",
+    "RoleTitle": "Rolle",
+    "Username": "Nutzername"
+  },
+  "Validations": {
+    "ExpiredToken": "Wiederherstellungs-Token ist bereits abgelaufen.",
+    "IncorrectAuthentication": "Der Benutzername oder das Passwort ist falsch.",
+    "IncorrectPassword": "Das Passwort ist inkorrekt.",
+    "LockedAccount": "Ihr Konto ist gesperrt.",
+    "UniqueEmail": "E-Mail-Adresse wird bereits verwendet.",
+    "UniqueUsername": "Benutzername ist bereits vergeben."
+
+  }
+}

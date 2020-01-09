@@ -1,0 +1,29 @@
+﻿{
+  "Headers": {
+    "Account": "Compte,",
+    "Accounts": "Comptes",
+    "Profile": "Profil",
+    "Role": "Rôle",
+    "Roles": "Rôles"
+  },
+  "Titles": {
+    "AdministrationAccountsCreate": "Création de compte",
+    "AdministrationAccountsDetails": "Détails du compte",
+    "AdministrationAccountsEdit": "Modification du compte",
+    "AdministrationAccountsIndex": "Comptes",
+    "AdministrationRolesCreate": "Création de rôle",
+    "AdministrationRolesDelete": "Suppression de rôle",
+    "AdministrationRolesDetails": "Détails du rôle",
+    "AdministrationRolesEdit": "Modification de rôle",
+    "AdministrationRolesIndex": "Rôles",
+    "AuthLogin": "S'identifier",
+    "AuthRecover": "Récupérer",
+    "AuthReset": "Réinitialiser",
+    "HomeError": "Erreur",
+    "HomeIndex": "Accueil",
+    "HomeNotFound": "Pas trouvé",
+    "ProfileDelete": "Suppression de profil",
+    "ProfileEdit": "Modification du profil"
+
+  }
+}

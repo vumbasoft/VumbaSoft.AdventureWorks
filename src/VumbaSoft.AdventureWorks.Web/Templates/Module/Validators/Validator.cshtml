@@ -16,6 +16,13 @@ namespace VumbaSoft.AdventureWorks.Validators
         {
             return ModelState.IsValid;
         }
+
+        public Boolean CanDelete(@Model.View view)
+        {
+            return ModelState.IsValid;
+        }
+
+
         public Boolean CanEdit(@Model.View view)
         {
             return ModelState.IsValid;

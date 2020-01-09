@@ -1,0 +1,10 @@
+﻿{
+  "Titles": {
+    "Id": "Função",
+    "Permissions": "Permissões",
+    "Title": "Título"
+  },
+  "Validations": {
+    "UniqueTitle": "O título da função já está sendo usado."
+  }
+}

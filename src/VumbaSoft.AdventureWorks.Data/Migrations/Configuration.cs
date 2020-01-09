@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using VumbaSoft.AdventureWorks.Data.Core;
 using VumbaSoft.AdventureWorks.Data.Logging;
 using VumbaSoft.AdventureWorks.Objects;
@@ -46,7 +46,73 @@ namespace VumbaSoft.AdventureWorks.Data.Migrations
                 new Permission { Area = "Administration", Controller = "Roles", Action = "Create" },
                 new Permission { Area = "Administration", Controller = "Roles", Action = "Details" },
                 new Permission { Area = "Administration", Controller = "Roles", Action = "Edit" },
-                new Permission { Area = "Administration", Controller = "Roles", Action = "Delete" }
+                new Permission { Area = "Administration", Controller = "Roles", Action = "Delete" },
+
+                new Permission { Area = "Demografic", Controller = "Continents", Action = "Index" },
+                new Permission { Area = "Demografic", Controller = "Continents", Action = "Create" },
+                new Permission { Area = "Demografic", Controller = "Continents", Action = "Edit" },
+                new Permission { Area = "Demografic", Controller = "Continents", Action = "Details" },
+                new Permission { Area = "Demografic", Controller = "Continents", Action = "Delete" },
+
+                new Permission { Area = "Demografic", Controller = "ContinentRegions", Action = "Index" },
+                new Permission { Area = "Demografic", Controller = "ContinentRegions", Action = "Create" },
+                new Permission { Area = "Demografic", Controller = "ContinentRegions", Action = "Edit" },
+                new Permission { Area = "Demografic", Controller = "ContinentRegions", Action = "Details" },
+                new Permission { Area = "Demografic", Controller = "ContinentRegions", Action = "Delete" },
+
+                new Permission { Area = "Demografic", Controller = "Countries", Action = "Index" },
+                new Permission { Area = "Demografic", Controller = "Countries", Action = "Create" },
+                new Permission { Area = "Demografic", Controller = "Countries", Action = "Edit" },
+                new Permission { Area = "Demografic", Controller = "Countries", Action = "Details" },
+                new Permission { Area = "Demografic", Controller = "Countries", Action = "Delete" },
+
+                new Permission { Area = "Demografic", Controller = "Regions", Action = "Index" },
+                new Permission { Area = "Demografic", Controller = "Regions", Action = "Create" },
+                new Permission { Area = "Demografic", Controller = "Regions", Action = "Edit" },
+                new Permission { Area = "Demografic", Controller = "Regions", Action = "Details" },
+                new Permission { Area = "Demografic", Controller = "Regions", Action = "Delete" },
+
+                new Permission { Area = "Demografic", Controller = "Provinces", Action = "Index" },
+                new Permission { Area = "Demografic", Controller = "Provinces", Action = "Create" },
+                new Permission { Area = "Demografic", Controller = "Provinces", Action = "Edit" },
+                new Permission { Area = "Demografic", Controller = "Provinces", Action = "Details" },
+                new Permission { Area = "Demografic", Controller = "Provinces", Action = "Delete" },
+
+                new Permission { Area = "Demografic", Controller = "Districts", Action = "Index" },
+                new Permission { Area = "Demografic", Controller = "Districts", Action = "Create" },
+                new Permission { Area = "Demografic", Controller = "Districts", Action = "Edit" },
+                new Permission { Area = "Demografic", Controller = "Districts", Action = "Details" },
+                new Permission { Area = "Demografic", Controller = "Districts", Action = "Delete" },
+
+                new Permission { Area = "Demografic", Controller = "Localities", Action = "Index" },
+                new Permission { Area = "Demografic", Controller = "Localities", Action = "Create" },
+                new Permission { Area = "Demografic", Controller = "Localities", Action = "Edit" },
+                new Permission { Area = "Demografic", Controller = "Localities", Action = "Details" },
+                new Permission { Area = "Demografic", Controller = "Localities", Action = "Delete" },
+
+                new Permission { Area = "Demografic", Controller = "Cities", Action = "Index" },
+                new Permission { Area = "Demografic", Controller = "Cities", Action = "Create" },
+                new Permission { Area = "Demografic", Controller = "Cities", Action = "Edit" },
+                new Permission { Area = "Demografic", Controller = "Cities", Action = "Details" },
+                new Permission { Area = "Demografic", Controller = "Cities", Action = "Delete" },
+
+                new Permission { Area = "Demografic", Controller = "AdventureworkFacilities", Action = "Index" },
+                new Permission { Area = "Demografic", Controller = "AdventureworkFacilities", Action = "Create" },
+                new Permission { Area = "Demografic", Controller = "AdventureworkFacilities", Action = "Edit" },
+                new Permission { Area = "Demografic", Controller = "AdventureworkFacilities", Action = "Details" },
+                new Permission { Area = "Demografic", Controller = "AdventureworkFacilities", Action = "Delete" },
+
+                new Permission { Area = "Demografic", Controller = "Tenants", Action = "Index" },
+                new Permission { Area = "Demografic", Controller = "Tenants", Action = "Create" },
+                new Permission { Area = "Demografic", Controller = "Tenants", Action = "Edit" },
+                new Permission { Area = "Demografic", Controller = "Tenants", Action = "Details" },
+                new Permission { Area = "Demografic", Controller = "Tenants", Action = "Delete" },
+
+                new Permission { Area = "LookupSettings", Controller = "CustomCareTypes", Action = "Index" },
+                new Permission { Area = "LookupSettings", Controller = "CustomCareTypes", Action = "Create" },
+                new Permission { Area = "LookupSettings", Controller = "CustomCareTypes", Action = "Edit" },
+                new Permission { Area = "LookupSettings", Controller = "CustomCareTypes", Action = "Details" },
+                new Permission { Area = "LookupSettings", Controller = "CustomCareTypes", Action = "Delete" }
             };
 
             foreach (Permission permission in UnitOfWork.Select<Permission>().ToArray())
@@ -65,6 +131,7 @@ namespace VumbaSoft.AdventureWorks.Data.Migrations
             if (!UnitOfWork.Select<Role>().Any(role => role.Title == "Sys_Admin"))
             {
                 UnitOfWork.Insert(new Role { Title = "Sys_Admin", Permissions = new List<RolePermission>() });
+
                 UnitOfWork.Commit();
             }
 

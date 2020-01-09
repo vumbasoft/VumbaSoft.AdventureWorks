@@ -1,0 +1,19 @@
+﻿{
+  "Titles": {
+    "Administration": "Administración",
+    "AdministrationAccountsCreate": "Crear",
+    "AdministrationAccountsDetails": "Detalles",
+    "AdministrationAccountsEdit": "Editar",
+    "AdministrationAccountsIndex": "Cuentas",
+    "AdministrationRolesCreate": "Crear",
+    "AdministrationRolesDelete": "Eliminar",
+    "AdministrationRolesDetails": "Detalles",
+    "AdministrationRolesEdit": "Editar",
+    "AdministrationRolesIndex": "Roles",
+    "HomeError": "Error",
+    "HomeIndex": "Hogar",
+    "HomeNotFound": "Extraviado",
+    "ProfileDelete": "Perfil",
+    "ProfileEdit": "Perfil"
+  }
+}

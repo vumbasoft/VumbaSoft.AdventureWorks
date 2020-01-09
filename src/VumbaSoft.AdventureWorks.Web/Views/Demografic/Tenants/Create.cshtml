@@ -1,0 +1,340 @@
+@model TenantView
+
+<div class="col">
+    <div class="widget-box">
+        <div class="widget-header">
+            <span class="icon fa fa-th-list"></span>
+            <h5>@Resource.ForHeader("Tenant")</h5>
+        </div>
+        <div class="widget-content">
+            <form asp-antiforgery="true">
+
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="Title"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="Title" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="Title"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="CityID"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="CityID" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="CityID"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="IsInTrial"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="IsInTrial" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="IsInTrial"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="TrialStartDate"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="TrialStartDate" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="TrialStartDate"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="TrialEndDate"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="TrialEndDate" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="TrialEndDate"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="PaidOut"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="PaidOut" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="PaidOut"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="PeriodPaidOutId"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="PeriodPaidOutId" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="PeriodPaidOutId"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="PaidStartDate"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="PaidStartDate" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="PaidStartDate"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="PaidEndDate"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="PaidEndDate" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="PaidEndDate"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="Disabled"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="Disabled" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="Disabled"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="DisabledReason"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="DisabledReason" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="DisabledReason"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="PaidDate"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="PaidDate" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="PaidDate"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="NextBillingDate"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="NextBillingDate" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="NextBillingDate"></span>
+                    </div>
+                </div>
+                @*<div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="NextBillingDiscount"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="NextBillingDiscount" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="NextBillingDiscount"></span>
+                    </div>
+                </div>*@
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="IsPremium"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="IsPremium" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="IsPremium"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="IsVIP"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="IsVIP" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="IsVIP"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="IsLocked"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="IsLocked" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="IsLocked"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="LockedDate"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="LockedDate" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="LockedDate"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="LockedReason"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="LockedReason" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="LockedReason"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="Activated"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="Activated" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="Activated"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="ActivatedDate"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="ActivatedDate" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="ActivatedDate"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="ActivatedReason"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="ActivatedReason" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="ActivatedReason"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="Upgraded"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="Upgraded" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="Upgraded"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="UpgradedDate"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="UpgradedDate" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="UpgradedDate"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="Enabled"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="Enabled" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="Enabled"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="PostalCode"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="PostalCode" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="PostalCode"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="BusinessName"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="BusinessName" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="BusinessName"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="CustomCareTypeID"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="CustomCareTypeID" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="CustomCareTypeID"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="LogoPath"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="LogoPath" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="LogoPath"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-actions col-lg-7">
+                        <button class="btn btn-primary">@Resource.ForAction("Submit")</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

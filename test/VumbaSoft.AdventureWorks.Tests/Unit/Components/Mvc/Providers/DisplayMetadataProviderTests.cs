@@ -10,6 +10,7 @@ namespace VumbaSoft.AdventureWorks.Components.Mvc.Tests
     public class DisplayMetadataProviderTests
     {
         [Fact]
+        [Obsolete]
         public void CreateDisplayMetadata_SetsDisplayName()
         {
             DisplayMetadataProvider provider = new DisplayMetadataProvider();

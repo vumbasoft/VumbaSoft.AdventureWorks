@@ -25,6 +25,8 @@ namespace VumbaSoft.AdventureWorks.Data.Core
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            //builder.Entity<Tenant>().Property(p => p.NextBillingDiscount).HasColumnType("decimal(18,2)");
+
             Type[] models = typeof(BaseModel)
                 .Assembly
                 .GetTypes()
@@ -52,6 +54,8 @@ namespace VumbaSoft.AdventureWorks.Data.Core
 
             foreach (IMutableForeignKey key in builder.Model.GetEntityTypes().SelectMany(entity => entity.GetForeignKeys()))
                 key.DeleteBehavior = DeleteBehavior.Restrict;
+
+
         }
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {

@@ -7,6 +7,7 @@ namespace VumbaSoft.AdventureWorks.Validators
     public interface @Model.IValidator : IValidator
     {
         Boolean CanCreate(@Model.View view);
+        Boolean CanDelete(@Model.View view);
         Boolean CanEdit(@Model.View view);
     }
 }

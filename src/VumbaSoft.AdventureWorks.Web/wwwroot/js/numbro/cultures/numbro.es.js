@@ -1,8 +1,8 @@
 numbro.registerLanguage({
     languageTag: "es",
     delimiters: {
-        thousands: ",",
-        decimal: "."
+        thousands: ".",
+        decimal: ","
     },
     abbreviations: {
         thousand: "k",

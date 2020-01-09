@@ -1,0 +1,40 @@
+﻿{
+  "Areas": {
+    "Administration": "Verwaltung"
+  },
+  "Controllers": {
+    "AdministrationAccounts": "Konten",
+    "AdministrationRoles": "Rollen"
+  },
+  "Actions": {
+    "Copy": "Kopieren",
+    "Create": "Erstellen",
+    "Delete": "Löschen",
+    "Details": "Einzelheiten",
+    "Edit": "Bearbeiten",
+    "Home": "Zuhause",
+    "Index": "Index",
+    "Language": "Sprache",
+    "Login": "Einloggen",
+    "Logout": "Ausloggen",
+    "Profile": "Profil",
+    "Recover": "Genesen",
+    "Search": "Suche",
+    "Submit": "Einreichen"
+  },
+  "Strings": {
+    "All": "Alle",
+    "LostPassword": "Passwort verloren?",
+    "No": "Nein",
+    "NoDataFound": "Keine Daten gefunden",
+    "PageNotFound": "Die von Ihnen gesuchte Seite existiert nicht",
+    "SystemError": "Ihre Anfrage führte zu einem unerwarteten Systemfehler",
+    "Yes": "Ja",
+    "EditOrDeleteAllowedToCreatorUser": "Bearbeiten oder Löschen ist nur für Benutzer erlaubt, die de record erstellt haben",
+    "EditOrDeleteNotAllowed": "Sie dürfen diesen Datensatz weder bearbeiten noch löschen",
+    "EditIsNotAllowed": "Bearbeiten ist nach 12 Stunden nach dem Erstellungsdatum des Datensatzes nicht mehr erlaubt",
+    "DeleteIsNotAllowed": "Löschen ist nach 1 Stunde Erstellungsdatum des Datensatzes nicht mehr erlaubt",
+    "DeleteRecordOfOtherFacilityNotAllowed": "Sie dürfen keine Datensätze von anderen Gesundheitseinrichtungen bearbeiten oder löschen",
+    "DeleteRecordOfOtherCompanyNotAllowed": "Sie dürfen keine Datensätze von anderen Unternehmen bearbeiten oder löschen."
+  }
+}

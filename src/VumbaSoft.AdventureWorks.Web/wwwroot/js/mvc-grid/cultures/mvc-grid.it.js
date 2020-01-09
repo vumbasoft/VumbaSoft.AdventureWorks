@@ -17,19 +17,19 @@
             'greater-than-or-equal': 'Maggiore o uguale'
         },
         date: {
-                           'equals': 'È uguale a',
-                       'not-equals': 'Non uguale',
-                     'earlier-than': 'Prima di',
-                       'later-than': 'Più tardi di',
+            'equals': 'È uguale a',
+            'not-equals': 'Non uguale',
+            'earlier-than': 'Prima di',
+            'later-than': 'Più tardi di',
             'earlier-than-or-equal': 'Prima o uguale',
-              'later-than-or-equal': 'Più tardi o uguale'
+            'later-than-or-equal': 'Più tardi o uguale'
         },
         enum: {
-                'equals': 'È uguale a',
+            'equals': 'È uguale a',
             'not-equals': 'Non uguale'
         },
         boolean: {
-                'equals': 'È uguale a',
+            'equals': 'È uguale a',
             'not-equals': 'Non uguale'
         },
         filter: {

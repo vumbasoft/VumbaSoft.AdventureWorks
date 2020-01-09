@@ -1,0 +1,19 @@
+﻿{
+  "Titles": {
+    "Administration": "Amministrazione",
+    "AdministrationAccountsCreate": "Creare",
+    "AdministrationAccountsDetails": "Dettagli",
+    "AdministrationAccountsEdit": "Modificare",
+    "AdministrationAccountsIndex": "Account",
+    "AdministrationRolesCreate": "Creare",
+    "AdministrationRolesDelete": "Elimina",
+    "AdministrationRolesDetails": "Dettagli",
+    "AdministrationRolesEdit": "Modificare",
+    "AdministrationRolesIndex": "ruoli",
+    "HomeError": "Errore",
+    "HomeIndex": "Casa",
+    "HomeNotFound": "Non trovato",
+    "ProfileDelete": "Profilo",
+    "ProfileEdit": "Profilo"
+  }
+}

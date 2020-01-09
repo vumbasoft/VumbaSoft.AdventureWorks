@@ -1,0 +1,30 @@
+﻿{
+  "Validations": {
+    "AcceptFiles": "Il campo '{0}' accetta solo il formato ({1}).",
+    "Date": "Il campo '{0}' deve essere una data.",
+    "Digits": "Il campo '{0}' deve contenere solo cifre.",
+    "Email": "Il campo '{0}' non è un indirizzo email valido.",
+    "EqualTo": "Il campo '{0}' deve essere uguale a '{1}'.",
+    "FileSize": "La dimensione '{0}' non deve superare {1} MB.",
+    "GreaterThan": "Il campo '{0}' deve essere maggiore di {1}.",
+    "Integer": "Il campo '{0}' deve essere un numero intero.",
+    "InvalidField": "Il valore del campo '{0}' non è valido.",
+    "InvalidValue": "Il valore '{0}' non è valido.",
+    "MaxValue": "Il campo '{0}' deve essere inferiore o uguale a {1}.",
+    "MinLength": "Il campo '{0}' deve contenere almeno {1} caratteri.",
+    "MinValue": "Il campo '{0}' deve essere maggiore o uguale a {1}.",
+    "Number": "Il campo '{0}' non può superare {1} cifre significative e {2} cifre frazionarie.",
+    "Numeric": "Il campo '{0}' deve essere numerico.",
+    "Range": "Il campo '{0}' deve essere compreso tra {1} e {2}.",
+    "Required": "Il campo '{0}' è obbligatorio.",
+    "RequiredValue": "È necessario il valore.",
+    "StringLength": "Il campo '{0}' non deve superare la lunghezza massima di {1}.",
+    "StringLengthRange": "Il campo '{0}' deve contenere tra i simboli {2} e {1}.",
+    "EditOrDeleteAllowedToCreatorUser": "Modifica o Elimina è consentito solo all'utente che ha creato il record",
+    "EditOrDeleteNotAllowed": "Non puoi modificare né eliminare questo record",
+    "EditIsNotAllowed": "La modifica non è consentita dopo 12 ore dalla data di creazione del record",
+    "DeleteIsNotAllowed": "L'eliminazione non è consentita dopo 1 ora dalla data di creazione del record",
+    "DeleteRecordOfOtherFacilityNotAllowed": "Non ti è permesso modificare o eliminare i record da altre strutture sanitarie",
+    "DeleteRecordOfOtherCompanyNotAllowed": "Non ti è consentito modificare o eliminare i record di altre società"
+  }
+}

@@ -1,0 +1,65 @@
+@model ContinentRegionView
+
+<div class="col">
+    <div class="widget-box">
+        <div class="widget-header">
+            <span class="icon fa fa-th-list"></span>
+            <h5>@Resource.ForHeader("ContinentRegion")</h5>
+        </div>
+        <div class="widget-content">
+            <form asp-antiforgery="true">
+
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="Title"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="Title" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="Title"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="ContinentId"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="ContinentId" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="ContinentId"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="Population"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="Population" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="Population"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="control-label col-md-3 col-lg-2">
+                        <label asp-for="Remarks"></label>
+                    </div>
+                    <div class="control-content col-md-9 col-lg-5">
+                        <input asp-for="Remarks" />
+                    </div>
+                    <div class="control-validation col">
+                        <span asp-validation-for="Remarks"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-actions col-lg-7">
+                        <button class="btn btn-primary">@Resource.ForAction("Submit")</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

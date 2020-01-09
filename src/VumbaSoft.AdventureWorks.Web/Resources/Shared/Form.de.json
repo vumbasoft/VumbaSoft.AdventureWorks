@@ -1,0 +1,30 @@
+﻿{
+  "Validations": {
+    "AcceptFiles": "Das Feld '{0}' akzeptiert nur das Format ({1}).",
+    "Date": "'{0}' Feld muss ein Datum sein.",
+    "Digits": "Das Feld '{0}' darf nur Ziffern enthalten.",
+    "Email": "Das Feld '{0}' ist keine gültige E-Mail-Adresse.",
+    "EqualTo": "Das Feld '{0}' muss gleich '{1}'sein.",
+    "FileSize": "Die Größe '{0}' sollte {1} MB nicht überschreiten.",
+    "GreaterThan": "Das Feld '{0}' muss größer als {1} sein.",
+    "Integer": "'{0}' Feld muss eine ganze Zahl sein.",
+    "InvalidField": "Der Feldwert '{0}' ist ungültig.",
+    "InvalidValue": "Wert '{0}' ist ungültig.",
+    "MaxValue": "Das Feld '{0}' muss kleiner oder gleich {1} sein.",
+    "MinLength": "Das Feld '{0}' muss mindestens {1} Zeichen lang sein.",
+    "MinValue": "Das Feld '{0}' muss größer oder gleich {1} sein.",
+    "Number": "Das Feld '{0}' darf {1} signifikante und {2} gebrochene Ziffern nicht überschreiten.",
+    "Numeric": "'{0}' Feld muss numerisch sein.",
+    "Range": "Das Feld '{0}' muss zwischen {1} und {2} liegen.",
+    "Required": "'{0}' Feld ist erforderlich.",
+    "RequiredValue": "Wert erforderlich.",
+    "StringLength": "Das Feld '{0}' darf die maximale Länge von {1} nicht überschreiten.",
+    "StringLengthRange": "Das Feld '{0}' muss zwischen {2} und {1} Zeichen enthalten.",
+    "EditOrDeleteAllowedToCreatorUser": "Bearbeiten oder Löschen ist nur für Benutzer erlaubt, die de record erstellt haben",
+    "EditOrDeleteNotAllowed": "Sie dürfen diesen Datensatz weder bearbeiten noch löschen",
+    "EditIsNotAllowed": "Bearbeiten ist nach 12 Stunden nach dem Erstellungsdatum des Datensatzes nicht mehr erlaubt",
+    "DeleteIsNotAllowed": "Löschen ist nach 1 Stunde Erstellungsdatum des Datensatzes nicht mehr erlaubt",
+    "DeleteRecordOfOtherFacilityNotAllowed": "Sie dürfen keine Datensätze von anderen Gesundheitseinrichtungen bearbeiten oder löschen",
+    "DeleteRecordOfOtherCompanyNotAllowed": "Sie dürfen keine Datensätze von anderen Unternehmen bearbeiten oder löschen."
+  }
+}

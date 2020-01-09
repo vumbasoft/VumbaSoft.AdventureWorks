@@ -1,0 +1,28 @@
+﻿{
+  "Messages": {
+    "ProfileDeleteDisclaimer": "Vous êtes sur le point de supprimer votre profil, toutes vos informations personnelles seront supprimées",
+    "ProfileUpdated": "Mise à jour du profil réussie",
+    "RecoveryEmailBody": "Pour récupérer les détails de votre compte, suivez simplement ce <a href=\"{0}\">link</a>.",
+    "RecoveryEmailSubject": "Récupération du compte",
+    "RecoveryInformation": "Les informations de récupération du compte ont été envoyées à votre adresse e-mail",
+    "SuccessfulReset": "Le mot de passe de votre compte a été modifié avec succès"
+
+  },
+  "Titles": {
+    "Email": "Email",
+    "IsLocked": "Fermé à clé",
+    "Password": "Mot de passe",
+    "RoleTitle": "Rôle",
+    "Username": "Nom d'utilisateur"
+
+  },
+  "Validations": {
+    "ExpiredToken": "Le jeton de récupération a déjà expiré.",
+    "IncorrectAuthentication": "Le pseudo ou mot de passe est incorect.",
+    "IncorrectPassword": "Le mot de passe est incorrect.",
+    "LockedAccount": "Ton compte est bloqué.",
+    "UniqueEmail": "L'adresse e-mail est déjà utilisée.",
+    "UniqueUsername": "Nom d'utilisateur déjà pris."
+
+  }
+}

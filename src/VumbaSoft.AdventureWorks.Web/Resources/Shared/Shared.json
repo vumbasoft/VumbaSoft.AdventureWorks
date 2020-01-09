@@ -1,10 +1,24 @@
-﻿{
+{
     "Areas": {
-        "Administration": "Administration"
+        "Administration": "Administration",
+        "Demografic": "Demografic",
+        "LookupSettings": "Lookup settings"
     },
     "Controllers": {
         "AdministrationAccounts": "Accounts",
-        "AdministrationRoles": "Roles"
+        "AdministrationRoles": "Roles",
+        "DemograficAdventureworkFacilities": "Adventurework facilities",
+        "DemograficCities": "Cities",
+        "DemograficContinentRegions": "Continent regions",
+        "DemograficContinents": "Continents",
+        "DemograficCountries": "Countries",
+        "DemograficDistricts": "Districts",
+        "DemograficdotnetTenants": "Tenants",
+        "DemograficLocalities": "Localities",
+        "DemograficProvinces": "Provinces",
+        "DemograficRegions": "Regions",
+        "DemograficTenants": "Tenants",
+        "LookupSettingsCustomCareTypes": "Custom care types"
     },
     "Actions": {
         "Copy": "Copy",
@@ -13,7 +27,7 @@
         "Details": "Details",
         "Edit": "Edit",
         "Home": "Home",
-        "Index":  "Index",
+        "Index": "Index",
         "Language": "Language",
         "Login": "Login",
         "Logout": "Logout",

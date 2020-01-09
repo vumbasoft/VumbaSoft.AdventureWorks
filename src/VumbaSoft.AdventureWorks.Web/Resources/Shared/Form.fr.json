@@ -1,0 +1,30 @@
+﻿{
+  "Validations": {
+    "AcceptFiles": "Le champ '{0}' accepte uniquement le format ({1}).",
+    "Date": "Le champ '{0}' doit être une date.",
+    "Digits": "Le champ '{0}' ne doit contenir que des chiffres.",
+    "Email": "Le champ '{0}' n'est pas une adresse e-mail valide.",
+    "EqualTo": "Le champ '{0}' doit être égal à '{1}'.",
+    "FileSize": "La taille de '{0}' ne doit pas dépasser {1} Mo.",
+    "GreaterThan": "Le champ '{0}' doit être supérieur à {1}.",
+    "Integer": "Le champ '{0}' doit être un entier.",
+    "InvalidField": "La valeur du champ '{0}' n'est pas valide.",
+    "InvalidValue": "La valeur '{0}' n'est pas valide.",
+    "MaxValue": "Le champ '{0}' doit être inférieur ou égal à {1}.",
+    "MinLength": "Le champ '{0}' doit comporter au moins {1} caractères.",
+    "MinValue": "Le champ '{0}' doit être supérieur ou égal à {1}.",
+    "Number": "Le champ '{0}' ne peut pas dépasser {1} chiffres significatifs et {2} fractionnaires.",
+    "Numeric": "Le champ '{0}' doit être numérique.",
+    "Range": "Le champ '{0}' doit être compris entre {1} et {2}.",
+    "Required": "Le champ '{0}' est obligatoire.",
+    "RequiredValue": "Valeur est requise.",
+    "StringLength": "Le champ '{0}' ne doit pas dépasser la longueur maximale de {1}.",
+    "StringLengthRange": "Le champ '{0}' doit contenir entre {2} et {1} symboles.",
+    "EditOrDeleteAllowedToCreatorUser": "La modification ou la suppression est autorisée uniquement à l'utilisateur qui a créé l'enregistrement",
+    "EditOrDeleteNotAllowed": "Vous n'êtes pas autorisé à modifier ou supprimer cet enregistrement",
+    "EditIsNotAllowed": "La modification n'est pas autorisée après 12 heures de la date de création de l'enregistrement",
+    "DeleteIsNotAllowed": "La suppression n'est pas autorisée après 1 heure de la date de création de l'enregistrement",
+    "DeleteRecordOfOtherFacilityNotAllowed": "Vous n'êtes pas autorisé à modifier ou supprimer des enregistrements d'autres établissements de santé",
+    "DeleteRecordOfOtherCompanyNotAllowed": "Vous n'êtes pas autorisé à modifier ou supprimer des enregistrements d'une autre société"
+  }
+}

@@ -1,0 +1,59 @@
+@model IQueryable<TenantView>
+
+<div class="col">
+    <div class="widget-box">
+        <div class="widget-header">
+            <span class="icon fa fa-th"></span>
+            <h5>@Resource.ForHeader("Tenants")</h5>
+            <div class="widget-header-buttons">
+                <authorize action="Create">
+                    <a asp-action="Create" class="btn">
+                        <span class="far fa-file"></span><span class="text">@Resource.ForAction("Create")</span>
+                    </a>
+                </authorize>
+            </div>
+        </div>
+        <div class="widget-content">
+            @(Html
+                .Grid(Model)
+                .Build(columns =>
+                {
+                    columns.AddAction("Details", "fa fa-info");
+                    columns.AddAction("Edit", "fa fa-pencil-alt");
+                    columns.AddAction("Delete", "fa fa-times");
+                    columns.AddProperty(model => model.Title);
+                    columns.AddProperty(model => model.CityID);
+                    columns.AddProperty(model => model.IsInTrial);
+                    columns.AddProperty(model => model.TrialStartDate);
+                    columns.AddProperty(model => model.TrialEndDate);
+                    columns.AddProperty(model => model.PaidOut);
+                    columns.AddProperty(model => model.PeriodPaidOutId);
+                    columns.AddProperty(model => model.PaidStartDate);
+                    columns.AddProperty(model => model.PaidEndDate);
+                    columns.AddProperty(model => model.Disabled);
+                    columns.AddProperty(model => model.DisabledReason);
+                    columns.AddProperty(model => model.PaidDate);
+                    columns.AddProperty(model => model.NextBillingDate);
+                    //columns.AddProperty(model => model.NextBillingDiscount);
+                    columns.AddProperty(model => model.IsPremium);
+                    columns.AddProperty(model => model.IsVIP);
+                    columns.AddProperty(model => model.IsLocked);
+                    columns.AddProperty(model => model.LockedDate);
+                    columns.AddProperty(model => model.LockedReason);
+                    columns.AddProperty(model => model.Activated);
+                    columns.AddProperty(model => model.ActivatedDate);
+                    columns.AddProperty(model => model.ActivatedReason);
+                    columns.AddProperty(model => model.Upgraded);
+                    columns.AddProperty(model => model.UpgradedDate);
+                    columns.AddProperty(model => model.Enabled);
+                    columns.AddProperty(model => model.PostalCode);
+                    columns.AddProperty(model => model.BusinessName);
+                    columns.AddProperty(model => model.CustomCareTypeID);
+                    columns.AddProperty(model => model.LogoPath);
+
+                })
+                .ApplyDefaults()
+            )
+        </div>
+    </div>
+</div>

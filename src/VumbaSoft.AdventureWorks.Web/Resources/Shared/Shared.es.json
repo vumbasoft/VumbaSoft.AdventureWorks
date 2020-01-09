@@ -1,0 +1,40 @@
+﻿{
+  "Areas": {
+    "Administration": "Administración"
+  },
+  "Controllers": {
+    "AdministrationAccounts": "Cuentas",
+    "AdministrationRoles": "Roles"
+  },
+  "Actions": {
+    "Copy": "Copiar",
+    "Create": "Crear",
+    "Delete": "Eliminar",
+    "Details": "Detalles",
+    "Edit": "Editar",
+    "Home": "Hogar",
+    "Index": "Índice",
+    "Language": "Idioma",
+    "Login": "Iniciar sesión",
+    "Logout": "Cerrar sesión",
+    "Profile": "Perfil",
+    "Recover": "Recuperar",
+    "Search": "Buscar",
+    "Submit": "Enviar"
+  },
+  "Strings": {
+    "All": "Todos",
+    "LostPassword": "¿Contraseña perdida?",
+    "No": "No",
+    "NoDataFound": "Datos no encontrados",
+    "PageNotFound": "La página que busca no existe",
+    "SystemError": "Su solicitud resultó en una falla inesperada del sistema",
+    "Yes": "Si",
+    "EditOrDeleteAllowedToCreatorUser": "Editar o Eliminar solo se permite al usuario que creó el registro",
+    "EditOrDeleteNotAllowed": "No tiene permiso para editar ni eliminar este registro",
+    "EditIsNotAllowed": "No se permite editar después de 12 horas de la fecha de creación del registro",
+    "DeleteIsNotAllowed": "No se permite eliminar después de 1 hora de la fecha de creación del registro",
+    "DeleteRecordOfOtherFacilityNotAllowed": "No tiene permiso para editar ni eliminar registros de otras instalaciones de salud",
+    "DeleteRecordOfOtherCompanyNotAllowed": "No tiene permiso para editar ni eliminar registros de otra compañía"
+  }
+}

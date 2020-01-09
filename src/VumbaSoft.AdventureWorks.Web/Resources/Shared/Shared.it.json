@@ -1,0 +1,34 @@
+﻿{
+  "Areas": {
+    "Administration": "Amministrazione"
+  },
+  "Controllers": {
+    "AdministrationAccounts": "Account",
+    "AdministrationRoles": "ruoli"
+  },
+  "Actions": {
+    "Copy": "Copia",
+    "Create": "Creare",
+    "Delete": "Elimina",
+    "Details": "Dettagli",
+    "Edit": "Modificare",
+    "Home": "Casa",
+    "Index": "Indice",
+    "Language": "Linguaggio",
+    "Login": "Accesso",
+    "Logout": "Disconnettersi",
+    "Profile": "Profilo",
+    "Recover": "Recuperare",
+    "Search": "Ricerca",
+    "Submit": "Invia"
+  },
+  "Strings": {
+    "All": "Tutti",
+    "LostPassword": "Password dimenticata?",
+    "No": "No",
+    "NoDataFound": "Nessun dato trovato",
+    "PageNotFound": "La pagina che stai cercando non esiste",
+    "SystemError": "La tua richiesta ha provocato un errore imprevisto del sistema",
+    "Yes": "Sì"
+  }
+}

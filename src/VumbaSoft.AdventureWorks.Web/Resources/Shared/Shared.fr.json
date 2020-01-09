@@ -1,0 +1,34 @@
+﻿{
+  "Areas": {
+    "Administration": "Administration"
+  },
+  "Controllers": {
+    "AdministrationAccounts": "Comptes",
+    "AdministrationRoles": "Rôles"
+  },
+  "Actions": {
+    "Copy": "Copie",
+    "Create": "Créer",
+    "Delete": "Supprimer",
+    "Details": "Détails",
+    "Edit": "Éditer",
+    "Home": "Accueil",
+    "Index": "Indice",
+    "Language": "Langue",
+    "Login": "S'identifier",
+    "Logout": "Se déconnecter",
+    "Profile": "Profil",
+    "Recover": "Récupérer",
+    "Search": "Chercher",
+    "Submit": "Soumettre"
+  },
+  "Strings": {
+    "All": "Tout",
+    "LostPassword": "Mot de passe perdu?",
+    "No": "Non",
+    "NoDataFound": "Aucune donnée disponible",
+    "PageNotFound": "La page que vous recherchez n'existe pas",
+    "SystemError": "Votre demande a entraîné une défaillance système inattendue",
+    "Yes": "Oui"
+  }
+}
