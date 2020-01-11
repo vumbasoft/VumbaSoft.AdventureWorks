@@ -10,9 +10,9 @@ namespace VumbaSoft.AdventureWorks.Objects
         [Required]
         [LookupColumn]
         [StringLength(128)]
-        public string Title { get; set; }
-        public Int32 CityID { get; set; }
-        public string Adress { get; set; }
+        public String Title { get; set; }
+        public Int32 CityId { get; set; }
+        public String Adress { get; set; }
         public Boolean IsInTrial { get; set; }
         public DateTime? TrialStartDate { get; set; }
         public DateTime? TrialEndDate { get; set; }
@@ -21,7 +21,7 @@ namespace VumbaSoft.AdventureWorks.Objects
         public DateTime? PaidStartDate { get; set; }
         public DateTime? PaidEndDate { get; set; }
         public Boolean Disabled { get; set; }
-        public string DisabledReason { get; set; }
+        public String DisabledReason { get; set; }
         public DateTime? PaidDate { get; set; }
         public DateTime? NextBillingDate { get; set; }
         //[Range(1, 100)]
@@ -32,16 +32,18 @@ namespace VumbaSoft.AdventureWorks.Objects
         public Boolean IsVIP { get; set; }
         public Boolean IsLocked { get; set; }
         public DateTime LockedDate { get; set; }
-        public string LockedReason { get; set; }
+        public String LockedReason { get; set; }
         public Boolean Activated { get; set; }
         public DateTime? ActivatedDate { get; set; }
-        public string ActivatedReason { get; set; }
+        public String ActivatedReason { get; set; }
         public Boolean Upgraded { get; set; }
         public DateTime? UpgradedDate { get; set; }
         public Boolean Enabled { get; set; }
-        public string PostalCode { get; set; }
-        public string BusinessName { get; set; }
-        public Int32? CustomCareTypeID { get; set; }
-        public string LogoPath { get; set; }
+        public String PostalCode { get; set; }
+        public String BusinessName { get; set; }
+        public Int32? CustomCareTypeId { get; set; }
+        public String? LogoPath { get; set; }
+        public String? CityTitle { get; set; }
+        public String? CustomCareTypeTitle { get; set; }
     }
 }

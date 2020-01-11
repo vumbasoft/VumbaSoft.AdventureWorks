@@ -33,7 +33,7 @@
                     <label asp-for="CountryId"></label>
                 </div>
                 <div class="control-content col-md-9 col-lg-5">
-                    <input asp-for="CountryId" />
+                    <div mvc-lookup-for="CountryId" url="~/Lookup/Country" title="@Resource.ForLookup("Country")"></div>
                 </div>
             </div>
             <div class="form-group">

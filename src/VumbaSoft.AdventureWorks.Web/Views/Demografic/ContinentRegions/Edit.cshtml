@@ -26,7 +26,7 @@
                         <label asp-for="Title"></label>
                     </div>
                     <div class="control-content col-md-9 col-lg-5">
-                        <input asp-for="Title" readonly />
+                        <input asp-for="Title" />
                     </div>
                     <div class="control-validation col">
                         <span asp-validation-for="Title"></span>
@@ -37,7 +37,7 @@
                         <label asp-for="ContinentId"></label>
                     </div>
                     <div class="control-content col-md-9 col-lg-5">
-                        <input asp-for="ContinentId" readonly />
+                        <div mvc-lookup-for="ContinentId" url="~/Lookup/Continent" title="@Resource.ForLookup("Continent")"></div>
                     </div>
                     <div class="control-validation col">
                         <span asp-validation-for="ContinentId"></span>
@@ -48,7 +48,7 @@
                         <label asp-for="Population"></label>
                     </div>
                     <div class="control-content col-md-9 col-lg-5">
-                        <input asp-for="Population" readonly />
+                        <input asp-for="Population" />
                     </div>
                     <div class="control-validation col">
                         <span asp-validation-for="Population"></span>
@@ -59,7 +59,7 @@
                         <label asp-for="Remarks"></label>
                     </div>
                     <div class="control-content col-md-9 col-lg-5">
-                        <input asp-for="Remarks" readonly />
+                        <input asp-for="Remarks" />
                     </div>
                     <div class="control-validation col">
                         <span asp-validation-for="Remarks"></span>

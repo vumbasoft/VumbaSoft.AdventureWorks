@@ -33,7 +33,7 @@
                     <label asp-for="CityId"></label>
                 </div>
                 <div class="control-content col-md-9 col-lg-5">
-                    <input asp-for="CityId" />
+                    <div mvc-lookup-for="CityId" url="~/Lookup/City" title="@Resource.ForLookup("City")"></div>
                 </div>
             </div>
             <div class="form-group">
@@ -41,7 +41,7 @@
                     <label asp-for="TenantId"></label>
                 </div>
                 <div class="control-content col-md-9 col-lg-5">
-                    <input asp-for="TenantId" />
+                    <div mvc-lookup-for="TenantId" url="~/Lookup/Tenant" title="@Resource.ForLookup("Tenant")"></div>
                 </div>
             </div>
             <div class="form-group">

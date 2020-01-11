@@ -37,7 +37,7 @@
                         <label asp-for="LocalityId"></label>
                     </div>
                     <div class="control-content col-md-9 col-lg-5">
-                        <input asp-for="LocalityId" />
+                        <div mvc-lookup-for="LocalityId" url="~/Lookup/Locality" title="@Resource.ForLookup("Locality")"></div>
                     </div>
                     <div class="control-validation col">
                         <span asp-validation-for="LocalityId"></span>

@@ -1,5 +1,16 @@
 ﻿{
-    "Titles": {
-        "Role": "Roles"
-    }
+  "Titles": {
+    "Role": "Roles",
+    "Continent": "Continents",
+    "Country": "Countries",
+    "Region": "Regions",
+    "State": "States",
+    "Province": "Provinces",
+    "District": "Districts",
+    "Locality": "Localities",
+    "Company": "Companies",
+    "AdventureworkFacility": "AdventureworkFacilities",
+    "Tenant": "Tenants",
+    "CustomCareType": "CustomCareTypes"
+  }
 }

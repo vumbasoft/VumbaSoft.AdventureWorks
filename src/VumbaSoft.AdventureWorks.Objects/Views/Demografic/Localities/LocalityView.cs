@@ -9,9 +9,10 @@ namespace VumbaSoft.AdventureWorks.Objects
         [Required]
         [LookupColumn]
         [StringLength(128)]
-        public string Title { get; set; }
+        public String Title { get; set; }
         public Int32 DistrictId { get; set; }
         public Int32? Population { get; set; }
-        public string Remarks { get; set; }
+        public String Remarks { get; set; }
+        public String? DistrictTitle { get; set; }
     }
 }

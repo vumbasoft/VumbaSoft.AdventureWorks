@@ -25,7 +25,7 @@
                         <label asp-for="ContinentRegionId"></label>
                     </div>
                     <div class="control-content col-md-9 col-lg-5">
-                        <input asp-for="ContinentRegionId" />
+                        <div mvc-lookup-for="ContinentRegionId" url="~/Lookup/ContinentRegion" title="@Resource.ForLookup("ContinentRegion")"></div>
                     </div>
                     <div class="control-validation col">
                         <span asp-validation-for="ContinentRegionId"></span>

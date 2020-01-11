@@ -6,10 +6,10 @@ namespace VumbaSoft.AdventureWorks.Objects
 {
     public class District : BaseModel
     {
-        public string Title { get; set; }
+        public String Title { get; set; }
         public Int32 ProvinceId { get; set; }
         public Int32? Population { get; set; }
-        public string Remarks { get; set; }
+        public String Remarks { get; set; }
         public virtual List<Locality> Localities { get; set; }
         public virtual Province Province { get; set; }
     }

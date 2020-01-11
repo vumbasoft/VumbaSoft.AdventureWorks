@@ -9,7 +9,7 @@ namespace VumbaSoft.AdventureWorks.Objects
         [Required]
         [LookupColumn]
         [StringLength(128)]
-        public string Title { get; set; }
-        public string Remarks { get; set; }
+        public String Title { get; set; }
+        public String Remarks { get; set; }
     }
 }
