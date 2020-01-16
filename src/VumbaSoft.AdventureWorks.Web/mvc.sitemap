@@ -80,16 +80,420 @@
                 <siteMapNode icon="fa fa-times" action="Delete" />
             </siteMapNode>
         </siteMapNode>
-        <!--<siteMapNode menu="true" icon="far fa-folder" area="Demograficdotnet">
-            <siteMapNode menu="true" icon="far fa-folder" controller="Tenants" action="Index">
+        <siteMapNode menu="true" icon="far fa-folder" area="LookupSettings">
+            <siteMapNode menu="true" icon="far fa-folder" controller="CustomCareTypes" action="Index">
                 <siteMapNode icon="far fa-file" action="Create" />
                 <siteMapNode icon="fa fa-info" action="Details" />
                 <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
                 <siteMapNode icon="fa fa-times" action="Delete" />
             </siteMapNode>
-        </siteMapNode>-->
-        <siteMapNode menu="true" icon="far fa-folder" area="LookupSettings">
-            <siteMapNode menu="true" icon="far fa-folder" controller="CustomCareTypes" action="Index">
+        </siteMapNode>
+        <siteMapNode menu="true" icon="far fa-folder" area="HumanResources">
+            <siteMapNode menu="true" icon="far fa-folder" controller="Departments" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Employees" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="EmployeeAddresses" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="EmployeeDepartmentHistories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="EmployeePayHistories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="JobCandidates" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Shifts" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+        </siteMapNode>
+        <siteMapNode menu="true" icon="far fa-folder" area="Person">
+            <siteMapNode menu="true" icon="far fa-folder" controller="Addresses" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="AddressTypes" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Contacts" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ContactTypes" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="CountryRegions" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="StateProvinces" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+        </siteMapNode>
+        <siteMapNode menu="true" icon="far fa-folder" area="Production">
+            <siteMapNode menu="true" icon="far fa-folder" controller="BillOfMaterials" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Cultures" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Documents" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Illustrations" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Locations" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Productsubcategories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductCategories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductCostHistories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductDescriptions" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductDocuments" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductInventories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductListPriceHistories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductModels" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductModelIllustrations" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductModelProductDescriptionCultures" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductPhotos" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductProductPhotos" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductReviews" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductSubcategories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ScrapReasons" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="TransactionHistories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="TransactionHistoryArchives" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="UnitMeasures" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="WorkOrders" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="WorkOrderRoutings" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+        </siteMapNode>
+        <siteMapNode menu="true" icon="far fa-folder" area="Purchasing">
+            <siteMapNode menu="true" icon="far fa-folder" controller="ProductVendors" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="PurchaseOrderDetails" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="PurchaseOrderHeaders" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ShipMethods" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Vendors" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="VendorAddresses" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="VendorContacts" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+        </siteMapNode>
+        <siteMapNode menu="true" icon="far fa-folder" area="Sales">
+            <siteMapNode menu="true" icon="far fa-folder" controller="ContactCreditCards" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="CountryRegionCurrencies" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="CreditCards" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Currencies" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="CurrencyRates" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Customers" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="CustomerAddresses" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Individuals" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SalesOrderDetails" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SalesOrderHeaders" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SalesOrderHeaderSalesReasons" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SalesPersons" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SalesPersonQuotaHistories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SalesReasons" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SalesTaxRates" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SalesTerritories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SalesTerritoryHistories" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="ShoppingCartItems" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SpecialOffers" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="SpecialOfferProducts" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="Stores" action="Index">
+                <siteMapNode icon="far fa-file" action="Create" />
+                <siteMapNode icon="fa fa-info" action="Details" />
+                <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
+                <siteMapNode icon="fa fa-times" action="Delete" />
+            </siteMapNode>
+            <siteMapNode menu="true" icon="far fa-folder" controller="StoreContacts" action="Index">
                 <siteMapNode icon="far fa-file" action="Create" />
                 <siteMapNode icon="fa fa-info" action="Details" />
                 <siteMapNode icon="fa fa-pencil-alt" action="Edit" />
