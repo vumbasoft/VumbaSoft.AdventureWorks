@@ -210,8 +210,8 @@ namespace VumbaSoft.AdventureWorks.Web
 
         private void UpdateDatabase(IApplicationBuilder app)
         {
-            using (Configuration configuration = app.ApplicationServices.GetService<Configuration>())
-                configuration.UpdateDatabase();
+            using Configuration configuration = app.ApplicationServices.GetService<Configuration>();
+            configuration.UpdateDatabase();
         }
     }
 }

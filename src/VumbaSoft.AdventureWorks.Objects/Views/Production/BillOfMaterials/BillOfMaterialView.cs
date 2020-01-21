@@ -7,7 +7,7 @@ namespace VumbaSoft.AdventureWorks.Objects
     {
         public Int32? ProductAssemblyId { get; set; }
         public Int32 ProductComponentId { get; set; }
-        public String UnitMeasureId { get; set; }
+        public Int32 UnitMeasureId { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
         public short Bomlevel { get; set; }

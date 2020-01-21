@@ -13,6 +13,8 @@ namespace VumbaSoft.AdventureWorks.Objects
         public Int32 Quantity { get; set; }
         public decimal ActualCost { get; set; }
         public String ProductTitle { get; set; }
+        public String ReferenceOrderTitle { get; set; }
+        public String ReferenceOrderLineTitle { get; set; }
 
         public virtual Product Product { get; set; }
     }

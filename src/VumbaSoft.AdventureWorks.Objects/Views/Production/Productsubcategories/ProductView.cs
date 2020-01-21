@@ -1,3 +1,4 @@
+using NonFactors.Mvc.Lookup;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,6 +7,9 @@ namespace VumbaSoft.AdventureWorks.Objects
 {
     public class ProductView : BaseView
     {
+        [Required]
+        [LookupColumn]
+        [StringLength(128)]
         public String Title { get; set; }
         public String ProductNumber { get; set; }
         public Boolean? MakeFlag { get; set; }

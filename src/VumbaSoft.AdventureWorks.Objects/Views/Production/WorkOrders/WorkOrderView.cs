@@ -15,6 +15,8 @@ namespace VumbaSoft.AdventureWorks.Objects
         public DateTime DueDate { get; set; }
         public Int32? ScrapReasonId { get; set; }
         public DateTime ModifiedDate { get; set; }
+        public String ProductTitle { get; set; }
+        public String? ScrapReasonTitle { get; set; }
 
         public virtual Product Product { get; set; }
         public virtual ScrapReason ScrapReason { get; set; }
